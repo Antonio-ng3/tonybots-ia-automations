@@ -353,6 +353,48 @@
       max-height: 200px;
     }
 
+    /* WhatsApp Float Button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      animation: pulse-whatsapp 2s infinite;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+    }
+
+    .whatsapp-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+    }
+
+    @keyframes pulse-whatsapp {
+      0% {
+        box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+      }
+      50% {
+        box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4), 0 0 0 10px rgba(37, 211, 102, 0.1);
+      }
+      100% {
+        box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+      }
+    }
+
     /* Responsive */
     @media (max-width: 768px) {
       .container {
@@ -364,6 +406,18 @@
         margin-left: 15px;
         margin-right: 15px;
         max-width: calc(100vw - 30px);
+      }
+      
+      .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+        width: 55px;
+        height: 55px;
+      }
+      
+      .whatsapp-icon {
+        width: 32px;
+        height: 32px;
       }
     }
   </style>
@@ -1084,5 +1138,11 @@
       });
     });
   </script>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://tonybots.com/whatsapp" target="_blank" class="whatsapp-float" title="Fale conosco no WhatsApp">
+    <img src="src/assets/whatsapp-icon.jpg" alt="WhatsApp" class="whatsapp-icon">
+  </a>
+
 </body>
 </html>
