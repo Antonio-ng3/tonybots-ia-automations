@@ -16,7 +16,7 @@ const Index = () => {
       answer: 'Não! Este ebook foi criado especificamente para iniciantes. Explicamos tudo passo a passo, desde a instalação até automações avançadas.'
     },
     {
-      id: 'q2',
+      id: 'q2', 
       question: 'Como recebo o ebook após a compra?',
       answer: 'Imediatamente após a confirmação do pagamento, você receberá um email com o link para download do ebook em PDF.'
     },
@@ -366,8 +366,8 @@ const Index = () => {
                     <div className="divider my-4"></div>
 
                     <div className="text-center">
-                      <h3 className="mb-3">
-                        Valor TOTAL: <span className="text-decoration-line-through text-muted">R$ 195,00</span>
+                      <h3 className="mb-3 text-foreground">
+                        Valor TOTAL: <span className="text-decoration-line-through" style={{ color: 'hsl(var(--muted-foreground))' }}>R$ 195,00</span>
                       </h3>
                       <div className="d-flex align-items-end justify-content-center mb-4">
                         <span className="text-muted-foreground me-3">Por apenas</span>
