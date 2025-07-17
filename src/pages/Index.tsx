@@ -16,7 +16,7 @@ const Index = () => {
       answer: 'Não! Este ebook foi criado especificamente para iniciantes. Explicamos tudo passo a passo, desde a instalação até automações avançadas.'
     },
     {
-      id: 'q2', 
+      id: 'q2',
       question: 'Como recebo o ebook após a compra?',
       answer: 'Imediatamente após a confirmação do pagamento, você receberá um email com o link para download do ebook em PDF.'
     },
@@ -88,34 +88,34 @@ const Index = () => {
     {
       title: 'Ebook Completo',
       subtitle: '(120+ páginas)',
-      price: 'R$47,00',
+      price: 'R$97,00',
       isStriked: false
     },
     {
       title: 'Templates Prontos',
       subtitle: '(20+ workflows para copiar)',
-      price: 'R$37,00',
+      price: 'R$67,00',
       isStriked: true,
       badge: 'GRÁTIS'
     },
     {
       title: 'Guia de APIs',
       subtitle: '(configuração passo a passo)',
-      price: 'R$27,00',
+      price: 'R$47,00',
       isStriked: true,
       badge: 'GRÁTIS'
     },
     {
       title: 'Suporte por Email',
       subtitle: '(30 dias)',
-      price: 'R$47,00',
+      price: 'R$97,00',
       isStriked: true,
       badge: 'GRÁTIS'
     },
     {
       title: 'Atualizações Gratuitas',
       subtitle: '(por 1 ano)',
-      price: 'R$37,00',
+      price: 'R$67,00',
       isStriked: true,
       badge: 'GRÁTIS'
     }
@@ -189,7 +189,7 @@ const Index = () => {
                     <p className="text-muted-foreground mb-2">Por apenas</p>
                     <div className="d-flex align-items-end justify-content-center mb-3">
                       <span className="h4 me-1">R$</span>
-                      <span className="display-4 fw-bold text-primary">19</span>
+                      <span className="display-4 fw-bold text-primary">47</span>
                       <span className="h4">,90</span>
                     </div>
                     <Button 
@@ -322,7 +322,7 @@ const Index = () => {
         <div className="container">
           <div className="text-center mb-5">
             <span className="badge bg-primary text-uppercase fw-bold px-3 py-2 mb-3">Oferta Especial</span>
-            <h2 className="mb-3">Tudo o que você recebe por apenas R$ 19,90:</h2>
+            <h2 className="mb-3">Tudo o que você recebe por apenas R$ 47,90:</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -366,13 +366,13 @@ const Index = () => {
                     <div className="divider my-4"></div>
 
                     <div className="text-center">
-                      <h3 className="mb-3 text-foreground">
-                        Valor TOTAL: <span className="text-decoration-line-through" style={{ color: 'hsl(var(--muted-foreground))' }}>R$ 195,00</span>
+                      <h3 className="mb-3">
+                        Valor TOTAL: <span className="text-decoration-line-through text-muted">R$ 375,00</span>
                       </h3>
                       <div className="d-flex align-items-end justify-content-center mb-4">
                         <span className="text-muted-foreground me-3">Por apenas</span>
                         <span className="h4 me-1">R$</span>
-                        <span className="display-4 fw-bold text-primary">19</span>
+                        <span className="display-4 fw-bold text-primary">47</span>
                         <span className="h4">,90</span>
                       </div>
                       
